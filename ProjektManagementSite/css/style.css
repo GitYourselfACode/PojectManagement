@@ -1,0 +1,117 @@
+h1 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+p {
+    padding-top: 10%;
+}
+
+.twentypx {
+    font-size: 20px;
+}
+
+.b-green {
+    background-color: #98f1b4;
+}
+
+.w-green {
+    color: #98f1b4;
+}
+
+.b-lighter {
+    background-color: #c4f29c;
+}
+
+.w-lighter {
+    color: #c4f29c;
+}
+
+.b-blue {
+    background-color: #0c3c78;
+}
+
+.w-blue {
+    color: #0c3c78;
+}
+
+.b-peach {
+    background-color: #ffcba4;
+}
+
+.w-peach {
+    color: #ffcba4;
+}
+
+.b-black {
+    background-color: #090030;
+    padding: 0%;
+    margin: 0%;
+}
+
+.w-black {
+    color: #090030;
+}
+
+.b-purple {
+    background-color: #4f1567;
+}
+
+.w-white {
+    color: whitesmoke;
+}
+
+.w-purple {
+    color: #4f1567;
+}
+
+.b-light-purple {
+    background-color: #9985fe;
+}
+
+.w-light-purple {
+    color: #9985fe;
+}
+
+.full-width {
+    display: flex;
+    width: 100vw;
+}
+
+.a-third {
+    width: 30vw;
+}
+
+.pictures {
+    padding: 10%;
+    height: 30vw;
+    width: 30vw;
+}
+
+.map {
+    flex: 5;
+}
+
+.contact {
+    flex: 2;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.no-spacing {
+    padding: 0%;
+    margin: 0%;
+}
+
+.slide-pictures {
+    height: 650px;
+    width: 650px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.centre {
+    text-align: center;
+}
