@@ -1,3 +1,11 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1 {
     padding-bottom: 5%;
     padding-top: 5%;
@@ -7,55 +15,34 @@ p {
     padding-top: 10%;
 }
 
+.top-btns {
+    background-color: #074198;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.prim-back-one {
+    background-color: #0D6EFD;
+}
+
+.prim-write-one {
+    color: #0D6EFD;
+}
+
+.white-write {
+    color: whitesmoke;
+}
+
+.white-back {
+    background-color: whitesmoke;
+}
+
 .twentypx {
     font-size: 20px;
 }
 
-.b-green {
-    background-color: #98f1b4;
-}
-
-.w-green {
-    color: #98f1b4;
-}
-
-.b-lighter {
-    background-color: #c4f29c;
-}
-
-.w-lighter {
-    color: #c4f29c;
-}
-
-.b-blue {
-    background-color: #0c3c78;
-}
-
-.w-blue {
-    color: #0c3c78;
-}
-
-.b-peach {
-    background-color: #ffcba4;
-}
-
-.w-peach {
-    color: #ffcba4;
-}
-
-.b-black {
-    background-color: #090030;
-    padding: 0%;
-    margin: 0%;
-}
-
-.w-black {
-    color: #090030;
-}
-
-.b-purple {
-    background-color: #4f1567;
-}
 
 .w-white {
     color: whitesmoke;
@@ -66,7 +53,7 @@ p {
 }
 
 .b-light-purple {
-    background-color: #9985fe;
+    background-color: #8870cb;
 }
 
 .w-light-purple {
@@ -114,4 +101,54 @@ p {
 
 .centre {
     text-align: center;
+}
+
+.now-main {
+    background-color: #c7cce7;
+    color: #2C2D2D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foot-me {
+    background-color: #8870cb;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fullscreen {
+    height: 98vh;
+    width: 98vw;
+}
+
+.slide-div {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-div {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-items: center;
+}
+
+.it-nav {
+    padding-top: 5px;
+}
+
+.slides {
+    background-color: #2C2D2D;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
 }
