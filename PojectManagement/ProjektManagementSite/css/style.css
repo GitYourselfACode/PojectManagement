@@ -1,0 +1,186 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+p {
+    padding-top: 10%;
+}
+
+#drop-menu-btn {
+    cursor: pointer;
+}
+
+#drop-down-items {
+    display: none;
+    position: absolute;
+    background-color: #074198;
+    min-width: 100px;
+    z-index: 10;
+}
+
+.map {
+    height: 500px;
+    width: 80%;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+.drop-link {
+    display: block;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #074198;
+}
+
+.dropdown-content a:hover {
+    background-color: #074198;
+}
+
+.top-btns {
+    background-color: #074198;
+    color: whitesmoke;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.prim-back-one {
+    background-color: #0D6EFD;
+}
+
+.prim-write-one {
+    color: #0D6EFD;
+}
+
+.white-write {
+    color: whitesmoke;
+}
+
+.white-back {
+    background-color: whitesmoke;
+}
+
+.twentypx {
+    font-size: 20px;
+}
+
+
+.w-white {
+    color: whitesmoke;
+}
+
+.w-purple {
+    color: #4f1567;
+}
+
+.b-light-purple {
+    background-color: #8870cb;
+}
+
+.w-light-purple {
+    color: #9985fe;
+}
+
+.full-width {
+    display: flex;
+    width: 100vw;
+}
+
+.a-third {
+    width: 30vw;
+}
+
+.pictures {
+    padding: 10%;
+    height: 30vw;
+    width: 30vw;
+}
+
+.map {
+    flex: 5;
+}
+
+.contact {
+    flex: 2;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.no-spacing {
+    padding: 0%;
+    margin: 0%;
+}
+
+.slide-pictures {
+    height: 650px;
+    width: 650px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.now-main {
+    background-color: #c7cce7;
+    color: #2C2D2D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foot-me {
+    background-color: #8870cb;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fullscreen {
+    height: 98vh;
+    width: 98vw;
+}
+
+.slide-div {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-div {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-items: center;
+}
+
+.it-nav {
+    padding-top: 5px;
+}
+
+.slides {
+    background-color: #2C2D2D;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

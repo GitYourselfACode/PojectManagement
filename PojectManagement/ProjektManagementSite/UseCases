@@ -1,0 +1,29 @@
+Use Case 1: Help in the shower
+Ablauf
+- Upon command the help-i model will meet the user in preparation of a shower. 
+- The robot will stand next to the user, on the side of the user's stronger (or still remaining) arm.
+- The help-i model will be facing in the same direction as the user with its arm bent at 90 degrees angled in front of the user 
+to allow the user to put as much body weight as they desire on the help-i model. 
+- The model shall move simultaneously with the user to the shower until the shower's entry, at which time the help-i model will stand in the 
+entrance to the shower with both arms ready to catch the user if they were to slip or need an arm to reat weight on. 
+- If the user has a bath or a shower with a ledge that must be stepped over before showering, then before the user reaches the bath/shower the 
+help-i model will bend down on one knee in front of the user at a 90 degree angle to the bath/shower and allow the user to have their 
+weight on the help-i's hand, with help-i's other forearm being avaiable for the user to place their weight on it. 
+- Once the user has finished showering the help-i model will either slowly lower the user out of the bathtub/shower, again allowing 
+the user to simultaneously place their foot on one of help-i's hands, with the other hand being available to be used to support the user's arms 
+or have both arms available to the user while it backs away from the user at the same pace the user is approaching it. 
+- While the user could still slip the help-i model stands directly next to the user with a forearm held at a 90 degree angle ready for the user to 
+place their weight on. 
+
+Use Case 2: Microwave food preparation
+- To initialise the help-i model connects with the smart microwave, setting the time for cooking and the temperature based on the 
+instructions of the meal. 
+- The help-i then picks up the meal and opens the microwave door through the connection and places the food inside.
+- It stands and waits until the food has finised cooking, then opens the door, removes the food and places it on a bench.
+- The help-i gets a suitable plate from the cupboard and scoops or pours the food out of the meal container onto the plate
+or bowl. 
+-The help-i model delivers the food to the user or on the user's behalf.
+
+Use Case 3: Medical emergency
+- The help-i robot is always ensure that users or anyone nearby is not showing signs of distress.
+- This is by recognising the appearance of humans under distress through 
