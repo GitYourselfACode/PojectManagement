@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NPM Help-i</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <section>
+
+        <header class="top-btns no-spacing">
+            <div class="nav-div">
+                <div>
+                    <a class="nav-link twentypx top-btns" href="../index.html">Absagen</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="lrp">
+            <form>
+                <label for="fname">Erste Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Nachname:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <input type="radio" id="visa" name="payment" value="visa">
+                <label for="visa">Visa</label><br>
+                <input type="radio" id="master" name="payment" value="master">
+                <label for="master">Master Card</label><br>
+                <label for="cardnumber">Nummer auf Karte:</label><br>
+                <input type="text" id="cardNum" name="cardNum"><br>
+                <label for="cvc">CVC:</label><br>
+                <input type="text" id="cvc" name="cvc">
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+

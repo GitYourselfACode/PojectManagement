@@ -15,9 +15,37 @@ p {
     padding-top: 10%;
 }
 
+#d-m-b {
+    cursor: pointer;
+}
+
+#drop-down-items {
+    display: none;
+    position: absolute;
+    background-color: #074198;
+    min-width: 100px;
+    z-index: 10;
+}
+
+.map {
+    height: 500px;
+    width: 80%;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+.drop-link {
+    display: block;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #074198;
+}
+
 .top-btns {
     background-color: #074198;
     color: whitesmoke;
+    border: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 450;
@@ -63,6 +91,11 @@ p {
 .full-width {
     display: flex;
     width: 100vw;
+    justify-content: space-around;
+}
+.sidestwentypx {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .a-third {
@@ -92,6 +125,15 @@ p {
     margin: 0%;
 }
 
+.half-page-img {
+    height: 400px;
+    width: 600px;
+}
+.half-pag-thin {
+    height: 400px;
+    width: 350px;
+}
+
 .slide-pictures {
     height: 650px;
     width: 650px;
@@ -107,6 +149,11 @@ p {
     background-color: #c7cce7;
     color: #2C2D2D;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lrp {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .foot-me {
