@@ -26,4 +26,8 @@ or bowl.
 
 Use Case 3: Medical emergency
 - The help-i robot is always ensure that users or anyone nearby is not showing signs of distress.
-- This is by recognising the appearance of humans under distress through 
+- This is by recognising the appearance of humans under distress through the use of an API to a machine learning model that has been trained on 
+a combination of faces and body movements that indicate a wide range of medical problems or general harm to a user. 
+- Upon recognising a medical emergency the help-i model will immdeiately make a call to emergency services and contact anyone nearby who is 
+available.
+- The help-i model will remain by the user and be ready to open the door for medical services.
